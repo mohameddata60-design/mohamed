@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>لعبة السلم والثعبان 3D</title>
+    <!-- ربط ملف الـ CSS الخارجي -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="ui">
+        <h2>لعبة السلم والثعبان 3D</h2>
+        <p id="status">اضغط على الزر لرمي النرد والتحرك!</p>
+        <button onclick="playTurn()">🎲 ارمِ النرد</button>
+    </div>
+
+    <!-- استدعاء مكتبة Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- ربط ملف الجافاسكريبت الخارجي -->
+    <script src="game.js"></script>
+</body>
+</html>
